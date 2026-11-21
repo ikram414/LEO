@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Cartoon Character Card</title>
+
+    <!-- INTERNAL CSS -->
+    <style>
+
+        /* Styling the whole webpage */
+        body {
+            background-color: #e0f2fe;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 40px;
+        }
+
+        /* Main heading */
+        h1 {
+            color: #1e3a8a;
+            font-size: 35px;
+        }
+
+        /* Character card */
+        .card {
+            background-color: white;
+            width: 320px;
+            margin: 30px auto;
+            padding: 25px;
+            border-radius: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+        }
+
+        /* Character name */
+        .name {
+            color: #7c3aed;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        /* Cartoon character */
+        .character {
+            font-size: 100px;
+            margin: 15px;
+        }
+
+        /* Character description */
+        .description {
+            color: #555555;
+            font-size: 16px;
+        }
+
+        /* Character powers */
+        .power {
+            background-color: #fef3c7;
+            padding: 12px;
+            border-radius: 10px;
+            color: #92400e;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>My Cartoon Character Card</h1>
+
+    <div class="card">
+
+        <h2 class="name">SUPER LEO</h2>
+
+        <div class="character">
+            🦸‍♂️
+        </div>
+
+        <h2 style="color: #ea580c;">
+            Captain Sunshine
+        </h2>
+
+        <p class="description">
+            A brave little hero who spreads happiness
+            and helps everyone around him!
+        </p>
+
+        <p class="power">
+            Special Power: Sunshine Blast ☀️
+        </p>
+
+        <p style="color: green; font-weight: bold;">
+            My motto: Never give up!
+        </p>
+
+    </div>
+
+</body>
+</html>
+
+
+
+--CSS--
+
+
+body{
+  padding: 25px;
+}
+.title {
+	color: #5C6AC4;
+}
+<style>
+    body {
+        background-color: lightblue;
+    }
+</style>
